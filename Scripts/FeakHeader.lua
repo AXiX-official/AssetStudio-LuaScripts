@@ -1,8 +1,7 @@
 -- Author: AXiX
--- This script works with data that has an indeterminately long copy in the header of the file.
--- for example:
--- UnityFS...UnityFS...
--- Defalut search first 1024 bytes
+-- Version: 1.0
+-- AssetStudio-Version: 1.37.04
+-- Description: This script is used to remove the fake header of the file.
 
 function get_offset(stream)
     local readr = CreateEndianBinaryReader(stream)

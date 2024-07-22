@@ -4,8 +4,8 @@ This repo is an adjunct to the fork repository [Studio](https://github.com/AXiX-
 
 ## LuaScripts
 
-- [offset.lua](./Scripts/offset.lua)
-    Preprocess the file by skipping the extra data copied before the file header.
+- [FeakHeader.lua](./Scripts/offset.lua)
+    Preprocess the file with fake header.
 
 ## Contribution
 
