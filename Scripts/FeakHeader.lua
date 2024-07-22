@@ -18,6 +18,7 @@ function get_offset(stream)
     return secondPos - 1
 end
     
+SetGame("Normal")
 local tmp = CreateFileStream(filepath)
 tmp.Position = get_offset(tmp)
 local fs = CreateMemoryStream()

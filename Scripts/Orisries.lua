@@ -3,6 +3,7 @@
 -- AssetStudio-Version: 1.37.04
 -- Description: This script is form game Orisries.
 
+SetGame("Normal")
 SetUnityVersion("2022.3.32f1")
 local keystr = 'wiki is transfer'
 local tmp = ReadAllBytes(filepath)
