@@ -50,7 +50,7 @@ function get_offset(stream)
         local j_size = get_size_from_header(buffer, indexs[j])
         Verbose("UnityFS size: " .. j_size)
         if j_size + indexs[j] - 1 == length then
-            return indexs[j]
+            return indexs[j] - 1
         end
     end
     return -1
