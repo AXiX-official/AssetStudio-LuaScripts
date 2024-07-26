@@ -6,6 +6,10 @@
 SetGame("UnityCN")
 SetUnityCNKey("Elpis", "79756E67756968616F77616E31323334")
 local tmp = CreateFileStream(filepath)
+if tmp:ReadByte() == 85 then
+    tmp.Position = 0
+    return tmp
+end
 tmp.Position = 32
 local fs = CreateMemoryStream()
 tmp:CopyTo(fs)
