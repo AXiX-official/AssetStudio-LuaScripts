@@ -4,8 +4,14 @@ This repo is an adjunct to the fork repository [Studio](https://github.com/AXiX-
 
 ## LuaScripts
 
-- [FeakHeader.lua](./Scripts/offset.lua)
+- [FakeHeader.lua](./Scripts/FakeHeader.lua)
     Preprocess the file with fake header.
+
+- [Elpis.lua](./Scripts/Elpis.lua)
+    Preprocess the file in game Elpis(星落).
+
+- [Orisries.lua](./Scripts/Orisries.lua)
+    Preprocess the file in game Orisries(萬源聖魔錄).
 
 ## Contribution
 
